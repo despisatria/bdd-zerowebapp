@@ -1,0 +1,23 @@
+{
+  "name": "edubdd",
+  "version": "1.0.0",
+  "description": "learn bdd",
+  "main": "index.js",
+  "author": "despisatria",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.6.2"
+  },
+  
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+  
+}
+
